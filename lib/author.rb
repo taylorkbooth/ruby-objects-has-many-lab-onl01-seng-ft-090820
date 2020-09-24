@@ -7,12 +7,12 @@ class Author
     @name = name
   end
   
-#   def songs
-#     Post.all.select do |song|
-#       post.author == self
+  def songs
+    Post.all.select do |song|
+      post.author == self
       
-#     end
-#   end
+    end
+  end
   
 #   def add_title(title)
 #     song.artist = self
