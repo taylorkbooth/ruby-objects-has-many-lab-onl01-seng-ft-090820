@@ -25,7 +25,7 @@ def add_post_by_title(post_name)
 end
  
 def self.song_count
-  Post.all.count
+  Author.all.count
 end
 
    
