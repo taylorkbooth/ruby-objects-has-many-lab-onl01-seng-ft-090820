@@ -8,7 +8,7 @@ class Author
   end
   
   def songs
-    Post.all.select do |song|
+    Post.all.select do |post|
       post.author == self
       
     end
