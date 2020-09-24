@@ -10,9 +10,9 @@ class Post
   end
   
   
-#   def self.all
-#     @@all
-#   end
+  def self.all
+    @@all
+  end
   
 # def artist_name
 #     if self.author
