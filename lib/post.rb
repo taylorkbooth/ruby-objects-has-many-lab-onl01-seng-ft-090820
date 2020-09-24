@@ -14,16 +14,16 @@ class Post
     @@all
   end
   
-# def artist_name
-#     if self.author
-#       self.author.name
-#     else
-#       nil
-#     end
-#   end
+def artist_name
+    if self.author
+      self.author.name
+    else
+      nil
+    end
+  end
   
   
-# end
+end
   
   
   
