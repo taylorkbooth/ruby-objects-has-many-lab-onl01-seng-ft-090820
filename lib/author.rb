@@ -9,12 +9,12 @@ class Author
   
   def songs
     Post.all.select do |song|
-      song.artist == self
+      post.author == self
       
     end
   end
   
-  def add_song(song)
+  def add_title(title)
     song.artist = self
   end
   
