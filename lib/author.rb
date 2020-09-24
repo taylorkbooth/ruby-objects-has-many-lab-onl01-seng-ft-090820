@@ -15,9 +15,9 @@ class Author
     end
   end
   
-#   def add_title(title)
-#     song.artist = self
-#   end
+  def add_title(title)
+    song.artist = self
+  end
   
 # def add_song_by_name(song_name)
 #   singer = Post.new(song_name)
